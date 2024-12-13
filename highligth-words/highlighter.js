@@ -29,10 +29,10 @@ for (let i = 0; i < test.length; i++) {
       test.splice(
         i,
         1,
-        `<span style='color:red; text-decoration: underline'>${test[i]}</span>`
+        `<mark style='text-decoration: underline'>${test[i]}</mark>`
       );
     } else {
-      test.splice(i, 1, `<span style='color:red'>${test[i]}</span>`);
+      test.splice(i, 1, `<mark>${test[i]}</mark>`);
     }
   }
 }
